@@ -25,6 +25,7 @@ margin: 0;
 }
 .card_details>.span1{
  font-weight: bold;
+ color: black;
 }
 .card_details>.span2{
     color: gray;

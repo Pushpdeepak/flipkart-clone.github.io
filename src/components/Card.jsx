@@ -23,7 +23,7 @@ const Card = ({image,offerPrice,actualPrice}) => {
       show && carousel()
     },[show,carousel])
 
-     const array=[0,1,2];
+    
 
   return (
     <div className='card'> 
@@ -33,7 +33,7 @@ const Card = ({image,offerPrice,actualPrice}) => {
       
       {
         Array(image.length).fill().map((_,i)=>{
-          if(i==index){
+          if(i===index){
             return show && <FiberManualRecordRounded className='dots'/>
           }else{
             return show && <FiberManualRecordOutlined className='dots'/>
@@ -48,7 +48,7 @@ const Card = ({image,offerPrice,actualPrice}) => {
      <div className="card_details">
         <p className='title'>adidas</p>
         <p>running shoes</p>
-        <span className='span1'>₹{offerPrice}</span>
+         <span className='span1'>{offerPrice}</span>
         <span className='span2'>₹{actualPrice}</span>
         <span className='span3'>56%</span>
      </div>
