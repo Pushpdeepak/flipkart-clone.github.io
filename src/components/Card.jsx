@@ -4,7 +4,7 @@ import FiberManualRecordOutlined from '@mui/icons-material/FiberManualRecordOutl
 import React, { useCallback, useEffect, useState } from 'react'
 import './Card.css';
 
-const Card = ({image,offerPrice,actualPrice}) => {
+const Card = ({image,brand,name,offerPrice,actualPrice}) => {
     const[index,setIndex]=useState(0);
     const[show,setShow]=useState(false);
 
@@ -46,8 +46,8 @@ const Card = ({image,offerPrice,actualPrice}) => {
      </div>
      <div className="product_details">
      <div className="card_details">
-        <p className='title'>adidas</p>
-        <p>running shoes</p>
+        <p className='title'>{brand}</p>
+        <p>{name}</p>
          <span className='span1'>₹{offerPrice}</span>
         <span className='span2'>₹{actualPrice}</span>
         <span className='span3'>56%</span>

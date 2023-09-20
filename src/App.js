@@ -34,6 +34,7 @@ function App() {
       {
       category.map(item=>(
         <Card
+         brand={item.brand}
          image={item.image} 
          name={item.name} 
          rating={item.rating} 
