@@ -1,0 +1,90 @@
+.header{
+    background-color: #2874f0;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.header_first{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-left: 120px;
+}
+
+
+.header_first> img{
+   width: 75px;
+   object-fit: contain;
+}
+
+.span1{
+    font-size: 11px;
+    color: white;
+    font-style: italic;
+
+}
+
+.span2{
+    color: #f9e107;
+    font-style: italic;
+    font-size: 11px;
+}
+
+.header_second{
+    display: flex;
+    align-items: center;
+    background-color: white;
+    border-radius: 3px;
+}
+
+.header_second > input{
+    border: none;
+    outline: none;
+    width: 36vw;
+    padding: 10px 15px;
+    border-radius: 3px;
+}
+
+.header_second > .MuiSvgIcon-root{
+ color: #2874f0;
+ padding: 5px;
+ font-size: 25px;
+ cursor: pointer;
+}
+
+.header_third > button{
+    border: none;
+    outline: none;
+    width: 9vw;
+    color:#2874f0;
+    font-weight: bold;
+    font-size: 15px;
+    cursor: pointer;
+    padding: 7px;
+}
+
+.header_fourth{
+ display: flex;
+ align-items: center;
+ cursor: pointer;
+}
+.header_fourth>span{
+    color: white;
+    font-weight: 600;
+}
+.header_fourth,.header_fifth > .MuiSvgIcon-root{
+    color: white;
+}
+
+.header_fifth{
+    padding-right: 120px;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+.header_fifth>p{
+    color: white;
+    font-weight: 600;
+    cursor: pointer;
+}

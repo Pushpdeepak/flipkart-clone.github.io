@@ -1,0 +1,39 @@
+.logint_in{
+    display: flex;
+    align-items: center;
+     padding: 0px 7px;
+}
+.logint_in>h2{
+    font-weight:normal;
+    font-size: 15px;
+    padding: 7px;
+    margin: 10px;
+}
+.signUp{
+    color: #2874f0;
+}
+.signUp:hover{
+    text-decoration: underline;
+}
+
+.logint_in>.MuiSvgIcon-root{
+    margin-right: 10px;
+    color: #2874f0;
+}
+
+.logint_in>img{
+    margin-right: 10px;
+}
+
+.logint>hr{
+    margin-left: -10px;
+    margin-top: 0px;
+    width: 108.5%;
+    height: 0.5px;
+    background-color: rgb(233,233,233);
+    border: none;
+}
+.logint_in:hover{
+    background-color: rgb(245,243,243);
+    cursor: pointer;
+}
