@@ -48,7 +48,7 @@ const Card = ({image,offerPrice,actualPrice}) => {
      <div className="card_details">
         <p className='title'>adidas</p>
         <p>running shoes</p>
-         <span className='span1'>{offerPrice}</span>
+         <span className='span1'>₹{offerPrice}</span>
         <span className='span2'>₹{actualPrice}</span>
         <span className='span3'>56%</span>
      </div>
