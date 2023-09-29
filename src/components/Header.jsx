@@ -30,7 +30,6 @@ const Header = () => {
             <Tippy content={<LoginT/>}
             interactive ={true}
             theme='light'
-              
             >
                 <button>Login</button>
             </Tippy>
